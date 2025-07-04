@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 
 const ToDo = () => {
 
+    const handleEdit = () => {}
+
+    const handleDelete = () => {}
+
   return (
     <div className="pt-20 max-w-4xl mx-auto px-4">
       <div className="bg-purple-100 rounded-lg shadow p-6 mt-6">
@@ -20,11 +24,11 @@ const ToDo = () => {
           </button>
         </div>
 
-        {/* <ul className="list-disc pl-5 text-slate-700 space-y-2">
-          {todos.map((todo, index) => (
+        <ul className="list-disc pl-5 text-slate-700 space-y-2">
+          {/* {todos.map((todo, index) => (
             <li key={index} className="bg-white rounded p-2 shadow-sm">{todo}</li>
-          ))}
-        </ul> */}
+          ))} */}
+        </ul>
       </div>
     </div>
   );
